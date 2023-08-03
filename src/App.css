@@ -1,0 +1,88 @@
+#navbarNav{
+  margin-left: 70%;
+}
+
+.addnoteform{
+  width: 30%;
+  margin-left: 35%;
+  padding: 3%;
+  margin-top: 5%;
+  border-radius: 30px;
+  background-color: rgba(162, 98, 19, 0.411);
+  text-align: center;
+  box-shadow: 10px 10px 8px 10px #242121;
+}
+.disnote{
+  background-color: #ffd500;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
+  border-radius: 20px;
+  box-shadow: 5px 5px 2px 5px #000000;
+}
+h2{
+  font-family: 'Lilita One', cursive;
+  color: white;
+}
+h1{
+  font-family: 'Lilita One', cursive;
+  margin-left: 2%;
+  margin-top: 5%;
+  color: white;
+}
+h3{
+  font-family: 'Bungee Spice', cursive;
+
+}
+h5{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-size: 40px;
+
+}
+.row{
+  width: 99%;
+  padding-left: 7%;
+}
+h6{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.maincard{
+  width: 28%;
+  margin-left: 15%;
+}
+.background{
+  background-image: url("./components/3025.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-white{
+  color: black;
+}
+
+
+@media (max-width:993px) {
+  .addnoteform{
+    width: 60%;
+    margin-left: 19%;
+    margin-bottom: 10%;
+  }
+  .maincard{
+    width: 90%;
+   
+    
+  }
+  .row{
+    padding-left: 2%;
+  }
+  #navbarNav{
+    margin-left: 78%;
+    margin-top: 5%;
+  }
+}
+
+
